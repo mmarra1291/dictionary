@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Logo from './components/Logo/Logo';
 import WordLookUp from './components/WordLookUp/WordLookUp';
+import WordUsage from './components/WordUsage/WordUsage';
 import './App.css';
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
       <div className="App">
         <Logo/>
         <WordLookUp/>
-        {/*WordUsage/>*/}
+        <WordUsage/>
        </div>
     );
   }
